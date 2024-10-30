@@ -60,6 +60,7 @@ Section 2: Content
 */h1,h2,h3,h4,h5{font-family:"Raleway",sans-serif;font-weight:700;line-height:110%}
 h2{font-size:1.9375rem;color:#003b76}h3{font-size:1.5rem;color:#0d8896}h4{font-size:1.25rem;color:#003b76}
 p{font-size:1.125rem;font-family:"Open Sans",sans-serif}.button{font-family:"Raleway",sans-serif;font-size:1rem;font-weight:700}
+a{color:#067986;}a:hover{color: #067986;}
 .button:not(.hollow){background-color:#003b76;-webkit-transition:background-color .25s ease-out,color .25s ease-out;transition:background-color .25s ease-out,color .25s ease-out}
 .button:not(.hollow):hover{background-color:#0055a4}.read-more{font-weight:700;color:#0055a4}
 .read-more:hover{text-decoration:underline}hr.shadow-divider{border:0;height:1px;position:relative;margin:4rem auto;width:100%;max-width:81.25rem;color:#fefefe}
@@ -140,7 +141,8 @@ hr.shadow-divider,hr.shadow-divider::before{background:radial-gradient(ellipse a
 #search-content input.gsc-search-button:hover,#search-content input.gsc-search-button:focus{background-color:#003b76 !important;color:#fefefe !important}
 .gsc-results .gsc-cursor-box .gsc-cursor-current-page{background-color:#003b76 !important;border:none !important;color:#fefefe !important}
 #event-content h1{font-weight:400;color:#003b76;padding-right:1.5rem;border-bottom:2px solid #0d8896;margin-bottom:1rem;display:inline-block}
-#event-content h2.subheading{font-size:1.25rem;text-transform:uppercase;color:#007bbf}
+#event-content h2.subheading{font-size:1.25rem;text-transform:uppercase;color:#067986
+}
 .event-info{font-family:"Raleway",sans-serif;margin-bottom:1.5rem}
 .event-info .info-label{font-weight:700}.event-info a span{color:#0d8896;font-weight:600}
 .event-info a span:hover{text-decoration:underline}.event-info div:not(:last-child){margin-bottom:.5rem}
@@ -176,17 +178,21 @@ Section 5: Navigation
 */.no-js .top-bar{display:none}
 .menu .active>a{background:0}.is-dropdown-submenu{background-color:#fefefe;border:0;-webkit-box-shadow:0 2px 3px rgba(10,10,10,0.25),-3px 2px 4px rgba(10,10,10,0.25),3px 2px 4px rgba(10,10,10,0.25);box-shadow:0 2px 3px rgba(10,10,10,0.25),-3px 2px 4px rgba(10,10,10,0.25),3px 2px 4px rgba(10,10,10,0.25)}
 .is-dropdown-submenu li{background:#fefefe}.is-dropdown-submenu li a{padding:1.25rem 1rem;font-size:.9375rem}
-.is-dropdown-submenu li:hover{background:#daecf5}.top-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.048125rem;color:#007bbf}
+.is-dropdown-submenu li:hover{background:#daecf5}.top-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.048125rem;color:#067986
+}
 .top-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child>a{padding-right:0}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li>a{font-size:1.072rem;font-weight:700;color:#003b76;padding-left:.7rem;padding-right:.7rem}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li.is-dropdown-submenu-parent>a::after{display:none}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:last-child a{padding-right:0}
 .main-nav-container>div>.menu:not(.is-dropdown-submenu)>li:first-child>a{padding-left:0}
-.main-nav-container>div .menu .active>a{color:#007bbf !important}.off-canvas{height:100%;background-color:#003b76}
-.off-canvas .menu li a{font-family:"Raleway",sans-serif;font-weight:600;color:#fefefe;padding-top:1rem;padding-bottom:1rem;border-bottom:1px solid #007bbf}
+.main-nav-container>div .menu .active>a{color:#067986
+     !important}.off-canvas{height:100%;background-color:#003b76}
+.off-canvas .menu li a{font-family:"Raleway",sans-serif;font-weight:600;color:#fefefe;padding-top:1rem;padding-bottom:1rem;border-bottom:1px solid #067986
+}
 .off-canvas .menu li a:hover{text-decoration:none}.off-canvas .menu li a::after{border-top-color:#fefefe}
 .off-canvas .menu li .submenu li a{padding-left:2rem;font-weight:500}.off-canvas .menu li .submenu li a::before{content:"-"}
-.off-canvas .menu#menu-main-nav li:first-child a{border-top:1px solid #007bbf}.off-canvas.position-right{width:400px;right:-400px;top:0}
+.off-canvas .menu#menu-main-nav li:first-child a{border-top:1px solid #067986
+}.off-canvas.position-right{width:400px;right:-400px;top:0}
 .off-canvas form table.gsc-search-box{width:58.5% !important}.off-canvas form tbody{background:transparent !important;border:none !important}
 .off-canvas form td.gsc-search-button{display:none !important}/*!
 Section 6: Footer

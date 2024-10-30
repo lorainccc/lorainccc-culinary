@@ -1351,7 +1351,7 @@ transform-origin: center left;
 										-webkit-transform: scale3d(0.7, 0.7, 1);
 										transform-origin: center left;
 								}
-        header:not(.article-header):not(.entry-header).smaller .top-bar .menu:not(.submenu):not(.is-dropdown-submenu) li a {
+        header:not(.article-header):not(.entry-header).smaller .top-bar .menu:not(.submenu):not(.is-dropdown-submenu) li a {color:#067986;
           padding: 0 1rem; }
         header:not(.article-header):not(.entry-header).smaller .top-bar .menu:not(.submenu):not(.is-dropdown-submenu) li:last-child a {
           padding: 0 0 0 1rem; }
