@@ -343,7 +343,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  color: #0d8896; }
+  color: #067986; }
 
 h4 {
   font-size: 1.25rem;
@@ -666,7 +666,7 @@ main a:not(.button):hover {
     pointer-events: none; } }
 #visit-campana .location-info h3, #contact .location-info h3 {
   font-size: 1.3125rem;
-  color: #0d8896; }
+  color: #067986; }
 #visit-campana .location-info .span-block, #contact .location-info .span-block {
   display: block; }
 #visit-campana .location-info .map-container, #contact .location-info .map-container {
@@ -753,7 +753,7 @@ main a:not(.button):hover {
   .section-title-row h2.h2-subheading {
     font-weight: 700;
     font-size: 1.5625rem;
-    color: #0d8896;
+    color: #067986;
     text-transform: uppercase;
     margin-top: 2rem; }
   @media screen and (max-width: 39.9375em) {
@@ -812,7 +812,7 @@ main a:not(.button):hover {
 #cool .home-video-row h3 {
   font-weight: 700;
   font-size: 1.5625rem;
-  color: #0d8896;
+  color: #067986;
   text-transform: uppercase; }
   @media screen and (max-width: 39.9375em) {
     #cool .home-video-row h3 {
@@ -822,7 +822,7 @@ main a:not(.button):hover {
   margin: 0 auto; }
 #cool .featured-items-row h3 {
   display: inline-block;
-  border-bottom: 2px solid #0d8896;
+  border-bottom: 2px solid #067986;
   font-weight: 500;
   font-size: 1.8125rem;
   padding-left: .5rem;
@@ -860,7 +860,7 @@ main a:not(.button):hover {
 .single-event-inner .event-title-underline {
   height: 2px;
   width: 100%;
-  background-color: #0d8896;
+  background-color: #067986;
   margin-bottom: .75rem; }
 .single-event-inner .event-description > .info-value > p {
   font-family: "Raleway", sans-serif;
@@ -935,7 +935,7 @@ main a:not(.button):hover {
 
 .home-recent-posts .home-recent-posts-row h3 {
   font-size: 1.3125rem;
-  color: #0d8896;
+  color: #067986;
   margin-bottom: .3rem; }
 .home-recent-posts .home-recent-posts-row p {
   margin-bottom: .3rem; }
@@ -969,7 +969,7 @@ main a:not(.button):hover {
 .overview-features h3 {
   font-weight: 700;
   font-size: 1.5625rem;
-  color: #0d8896;
+  color: #067986;
   text-transform: uppercase; }
 .overview-features h4 {
   font-size: 1.25rem;
@@ -992,7 +992,7 @@ main a:not(.button):hover {
 .orange-h3 {
   font-weight: 700;
   font-size: 1.5625rem;
-  color: #0d8896;
+  color: #067986;
   text-transform: uppercase;
   margin-top: 1.25rem;
   margin-bottom: 0; }
@@ -1032,7 +1032,7 @@ main a:not(.button):hover {
   box-sizing: border-box; }
   .alternating-row h3 {
     font-size: 1.3125rem;
-    color: #0d8896;
+    color: #067986;
     margin-bottom: .3rem; }
   @media screen and (max-width: 39.9375em) {
     .alternating-row img {
@@ -1085,7 +1085,7 @@ main a:not(.button):hover {
     font-size: 1rem;
     font-weight: 600;
     text-decoration: underline;
-    color: #0d8896;
+    color: #067986;
     padding: .25rem 0;
     display: block; }
 
@@ -1121,7 +1121,7 @@ main a:not(.button):hover {
   margin-bottom: .5rem; }
   .post-taxonomies a, .event-taxonomy-links a {
     font-weight: 600;
-    color: #0d8896; }
+    color: #067986; }
     .post-taxonomies a:hover, .event-taxonomy-links a:hover {
       text-decoration: underline; }
 
@@ -1151,7 +1151,7 @@ main a:not(.button):hover {
   font-family: "Raleway", sans-serif !important;
   font-size: 1.3125rem !important;
   font-weight: 700 !important;
-  color: #0d8896 !important; }
+  color: #067986 !important; }
 
 .gsc-result .gs-title {
   height: 2.25rem !important; }
@@ -1185,7 +1185,7 @@ main a:not(.button):hover {
   font-weight: 400;
   color: #003b76;
   padding-right: 1.5rem;
-  border-bottom: 2px solid #0d8896;
+  border-bottom: 2px solid #067986;
   margin-bottom: 1rem;
   display: inline-block; }
 #event-content h2.subheading {
@@ -1199,7 +1199,7 @@ main a:not(.button):hover {
   .event-info .info-label {
     font-weight: 700; }
   .event-info a span {
-    color: #0d8896;
+    color: #067986;
     font-weight: 600; }
     .event-info a span:hover {
       text-decoration: underline; }
@@ -1211,7 +1211,7 @@ main a:not(.button):hover {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #0d8896; }
+  color: #067986; }
 .event-social-sharing .menu > li > a {
   padding: 0;
   margin-right: .5rem; }
