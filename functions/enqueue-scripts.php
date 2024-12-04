@@ -39,7 +39,7 @@ function lorainccc_subsite_foundation_scripts() {
 	wp_enqueue_script( 'lc-google-tag-scripts', get_stylesheet_directory_uri() . '/js/lc-google-tag.js', array(), '20180828', false);
 	wp_enqueue_script( 'lc-hotjar-scripts', get_stylesheet_directory_uri() . '/js/lc-hotjar.js', array(), '20180828', false);
 	wp_enqueue_script( 'lc-siteimprove-scripts', get_stylesheet_directory_uri() . '/js/lc-siteimprove.js', array(), '20180828', false);
-	
+
 	wp_localize_script( 'lorainccc_subsite-function-script', 'screenReaderText', array(
 		'expand'   => '<span class="screen-reader-text">' . __( 'expand child menu', 'twentyfifteen' ) . '</span>',
 		'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'twentyfifteen' ) . '</span>',
@@ -56,6 +56,12 @@ function lorainccc_subsite_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'lorainccc_subsite_scripts', 99 );
+
+function lc_load_scripts_last() {
+		//Use jQuery to remove attributes and roles for accessibility
+		wp_enqueue_script( 'lc-offcanvas-fixes', get_stylesheet_directory_uri() . '/js/lc-offcanvas.js', array( 'jquery' ), '20241119', true);
+}
+add_action( 'wp_enqueue_scripts', 'lc_load_scripts_last', 9999 );
 
 function sticky_shrinking_header() {
 ?>

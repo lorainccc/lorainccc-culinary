@@ -1538,7 +1538,8 @@ Section 5: Navigation
   font-weight: 700;
   color: #003b76;
   padding-left: .7rem;
-  padding-right: .7rem; }
+  padding-right: .7rem; 
+  margin:10px;}
 .main-nav-container > div > .menu:not(.is-dropdown-submenu) > li.is-dropdown-submenu-parent > a::after {
   display: none; }
 .main-nav-container > div > .menu:not(.is-dropdown-submenu) > li:last-child a {
